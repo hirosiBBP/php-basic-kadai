@@ -33,6 +33,7 @@
 
         // インスタンス$foodの各プロパティの値を出力する
         print_r($food);
+        $food->show_price();
         echo '<br>';
 
         // Animalクラスを定義する
@@ -64,9 +65,8 @@
 
         // インスタンス$foodの各プロパティの値を出力する
         print_r($animal);
+        $animal->show_height();
         echo '<br>';
-
-
 
         $food->show_Price='250';
         echo $food->show_Price.'<br>';
@@ -74,6 +74,8 @@
         $animal->show_height='60';
         echo $animal->show_height;
         ?>
+
+        
 
     </p>
 </body>
